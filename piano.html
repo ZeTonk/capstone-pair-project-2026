@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="instruments.css">
+</head>
+<body id="piano-cover">
+    <div id="piano">    
+        <button class="normal" onclick="playNote('Piano-notes/C-NOTE.mp3')" >C</button>
+            <!-- Cant do C#, sends a non suported, remember that. -->
+        <button class="sharp" onclick="playNote('Piano-notes/C-Sharo.mp3')" >C#</button>
+        <button class="normal" >D</button>
+    </div>
+
+
+    <audio src="Piano-notes/C-NOTE.mp3"></audio>
+    <audio src="Piano-notes/C-Sharo.mp3"></audio>
+    <script src="instruments.js"></script>
+</body>
+</html>
