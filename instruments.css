@@ -1,0 +1,75 @@
+#piano {
+  width: 1000px;
+  height: 250px;
+  background-color: black;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#piano-cover {
+  background-image: url(image.png);
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  height: 90vh;
+}
+#C-sharp {
+  left: 84px;
+}
+#D-sharp {
+  left: 150px;
+}
+#F-sharp {
+  left: 364px;
+}
+#G-sharp {
+  left: 403px;
+}
+#A-sharp {
+  left: 444px;
+}
+#c-sharp {
+  left: 524px;
+}
+#d-sharp {
+  left: 564px;
+}
+#f-sharp {
+  left: 644px;
+}
+#g-sharp {
+  left: 683px;
+}
+#a-sharp {
+  left: 724px;
+}
+
+.sharp {
+  background-color: grey;
+  z-index: 2;
+  height: 110px;
+  width: 50px;
+  position: absolute;
+  top: 50px;
+}
+.normal {
+  background-color: white;
+  z-index: 1;
+  height: 150px;
+  width: 65px;
+  text-align: bottom;
+}
+button {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+#piano.normal {
+  display: flex;
+  justify-content: center;
+  top: 40px;
+  right: 30px;
+  align-items: center;
+}

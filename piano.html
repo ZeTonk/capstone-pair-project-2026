@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="instruments.css">
+</head>
+
+<body id="piano-cover">
+    <div id="piano">
+        <!---->
+        <button class="normal" onclick="playNote('Notes/C-NOTE.mp3')">C</button>
+        <!-- Cant do C#, sends a non suported, remember that. -->
+        <button id="C-sharp" class="sharp" onclick="playNote('Notes/C-Sharo.mp3')">C#</button>
+        <button class="normal" onclick="playNote('')">D</button>
+        <button id="D-sharp" class="sharp" onclick="playNote('')">D#</button>
+        <button class="normal" onclick="playNote('')">E</button>
+        <button class="normal" onclick="playNote('')">E#</button>
+        <button id="F-sharp" class="sharp" onclick="playNote('')">F#</button>
+        <button class="normal" onclick="playNote('')">G</button>
+        <button id="G-sharp" class="sharp" onclick="playNote('')">G#</button>
+        <button class="normal" onclick="playNote('')">A</button>
+        <button id="A-sharp" class="sharp" onclick="playNote('')">A#</button>
+        <button class="normal" onclick="playNote('')">B</button>
+        <button class="normal" onclick="playNote('Notes/C-NOTE.mp3')">C</button>
+        <button id="c-sharp" class="sharp" onclick="playNote('Notes/C-Sharo.mp3')">C#</button>
+        <button class="normal" onclick="playNote('')">D</button>
+        <button id="d-sharp" class="sharp" onclick="playNote('')">D#</button>
+        <button class="normal" onclick="playNote('')">E</button>
+        <button class="normal" onclick="playNote('')">E#</button>
+        <button id="f-sharp" class="sharp" onclick="playNote('')">F#</button>
+        <button class="normal" onclick="playNote('')">G</button>
+        <button id="g-sharp" class="sharp" onclick="playNote('')">G#</button>
+        <button class="normal" onclick="playNote('')">A</button>
+        <button id="a-sharp" class="sharp" onclick="playNote('')">A#</button>
+        <button class="normal" onclick="playNote('')">B</button>
+    </div>
+
+
+    <audio src="Notes/C-NOTE.mp3"></audio>
+    <audio src="Notes/C-Sharo.mp3"></audio>
+    <script src="instruments.js"></script>
+</body>
+
+</html>
